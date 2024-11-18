@@ -5,16 +5,19 @@ body {
     background-color: #f4f4f9;
     color: #333;
 }
+
 header {
     text-align: center;
     padding: 20px;
-    background-color: #df68db;
+    background-color: #000000;
     color: white;
 }
+
 header h1 {
     margin: 0;
     font-size: 2.5rem;
 }
+
 header p {
     margin: 5px 0 0;
     font-size: 1.2rem;
@@ -27,11 +30,13 @@ header p {
     gap: 15px;
     padding: 20px;
 }
+
 .image-item img {
     width: 100%;
     border-radius: 10px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
+
 .image-item img:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -50,11 +55,13 @@ header p {
     justify-content: center;
     z-index: 1000;
 }
+
 .modal img {
     max-width: 90%;
     max-height: 80%;
     border-radius: 10px;
 }
+
 .modal span {
     position: absolute;
     top: 10px;
@@ -63,6 +70,7 @@ header p {
     color: white;
     cursor: pointer;
 }
+
 .modal span:hover {
     color: #2a9d8f;
 }
